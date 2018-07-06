@@ -17,4 +17,6 @@ A-Z AI for the Udemy course
 
 ## Images
 
+<img width="791" alt="2" src="https://user-images.githubusercontent.com/25356323/42361358-efe1298e-80a2-11e8-9f19-212f6bd83a99.png">
+<img width="799" alt="1" src="https://user-images.githubusercontent.com/25356323/42361359-effb852c-80a2-11e8-8238-5e52bfb43af5.png">
 
