@@ -16,19 +16,19 @@ from kivy.properties import NumericProperty, ReferenceListProperty, ObjectProper
 from kivy.vector import Vector
 from kivy.clock import Clock
 
-# Importing the Dqn object from our AI in ai.py
+# Importing the Dqn object from the AI in ai.py
 from ai import Dqn
 
-# Adding this line if we don't want the right click to put a red point
+# Adding this line to remove the right click to put a red point
 Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
 
-# Introducing last_x and last_y, used to keep the last point in memory when we draw the sand on the map
+# Introducing last_x and last_y, used to keep the last point in memory when drawing the sand on the map
 last_x = 0
 last_y = 0
 n_points = 0
 length = 0
 
-# Getting our AI, which we call "brain", and that contains our neural network that represents our Q-function
+# Getting the AI, and calling it "brain", and that contains the neural network that represents the Q-function
 brain = Dqn(5,3,0.9)
 action2rotation = [0,20,-20]
 last_reward = 0
