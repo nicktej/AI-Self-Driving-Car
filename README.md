@@ -10,11 +10,6 @@ The AI's ability to navigate through the map is influenced by the number of hidd
 
 This project uses Python 2. You will need PyTorch, Numpy, Matplotlib, and so on. I used Spyder on Anaconda to code this.
 
-
-## Acknowledgments
-
-A-Z AI for the Udemy course
-
 ## Images
 
 <img width="791" alt="2" src="https://user-images.githubusercontent.com/25356323/42361358-efe1298e-80a2-11e8-9f19-212f6bd83a99.png">
